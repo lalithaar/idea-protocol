@@ -15,13 +15,13 @@ This project aims to make idea sharing as natural and transparent as choosing an
 
 ---
 
-## 🧩 Available Licenses (Draft v0.0.1)
+## 🧩 Available Licenses (Draft v0.0.0)
 
 | Code | Name | Summary |
 |------|------|----------|
 | **ICN** | *Idea Commons Notice* | Shared openly for discussion and inspiration, attribution expected. |
 | **IRL** | *Idea Review License* | Shared privately for feedback; reuse requires consent. |
-| **CRL** | *Collaborative Research License* | Shared within a team; co-ownership assumed unless otherwise agreed. |
+| **IP-TO** | *Collaborative Research License* | Shared within a team; co-ownership assumed unless otherwise agreed. |
 | **OIL** | *Open Idea License* | Anyone may build on it, but attribution required. |
 
 Each license is written to be **clear, human-readable, and respectful** — setting expectations rather than enforcing law.
@@ -61,6 +61,6 @@ so anyone can adapt or remix them with attribution.
 
 ---
 
-**→ Version:** v0.0.1 draft  
+**→ Version:** v0.0.0 draft  
 **→ Site:** [https://lalithaar.github.io/idea-protocol/](https://lalithaar.github.io/idea-protocol/)*(coming soon)*  
 
