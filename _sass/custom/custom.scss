@@ -1,0 +1,95 @@
+/* -------------------------------------------------
+   The Idea Protocol — custom styling
+   ------------------------------------------------- */
+
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* Soft paper palette */
+$paper-bg: #faf9f6;
+$ink: #1a1a1a;
+$link: #004fa3;
+$link-hover: #002f66;
+$border: #dedbd4;
+
+/* Global text + background */
+body, .main-content, .site-header, .side-bar, .footer, .search-input, .search-results, a.nav-list-link, a.site-button, ul.aux-nav-list,div.search, a.nav-list-link.active, nav,nav.aux-nav, table,th,td,tr {
+  background-color: $paper-bg !important;
+  color: $ink;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.015em;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: $ink;
+  margin-top: 1.5rem;
+}
+
+/* Links */
+a {
+  color: $link;
+
+}
+a:hover {
+  color: $link-hover;
+  border-bottom: 1px solid $link-hover;
+}
+
+/* Code and preformatted text */
+code, pre {
+  background-color: lighten($paper-bg, 2%);
+  color: $ink;
+  font-family: 'IBM Plex Mono', monospace;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.95em;
+}
+
+/* Tables */
+table {
+  background-color: $paper-bg;
+  border-color: $border;
+  font-size: 0.95em;
+}
+
+/* Sidebar and navigation */
+.side-bar {
+  background-color: lighten($paper-bg, 1%);
+  border-right: 1px solid $border;
+}
+
+/* Blockquotes */
+blockquote {
+  font-style: italic;
+  color: darken($ink, 25%);
+  border-left: 4px solid $border;
+  padding-left: 1rem;
+  background-color: lighten($paper-bg, 1%);
+}
+
+/* Footer */
+.footer {
+  background-color: $paper-bg;
+  color: darken($ink, 20%);
+  font-size: 0.9em;
+  border-top: 1px solid $border;
+  padding-top: 1rem;
+}
+
+/* TL;DR boxes or notes */
+.tldr {
+  background: lighten($paper-bg, 2%);
+  border-left: 3px solid $ink;
+  padding: 0.75rem 1rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+a.reversefootnote {
+
+}
+
+a.site-button {
+  font-size: 1rem;
+}

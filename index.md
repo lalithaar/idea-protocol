@@ -1,35 +1,88 @@
 ---
-title: Home
 layout: home
+title: Idea Protocol
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# The Idea Protocol
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+A simple way to share and discuss ideas with clear expectations.
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## What is the Idea Protocol?
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+The **Idea Protocol** helps you share early ideas with confidence. Whether you're discussing a research paper with a professor, brainstorming with a colleague, or collaborating in a hackathon, this protocol provides a simple way to communicate your expectations about how your idea should be used, shared, or developed.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+It’s a quick, informal system that allows you to **set clear boundaries** around your ideas without the need for legal contracts or awkward conversations.
 
-To get started with creating a site, simply:
+---
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## Why It Matters
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+When you share an idea, you might want feedback, collaboration, or simply to get another perspective. But how do you ensure your idea isn’t misused or misunderstood? How can you protect it without turning every conversation into a tense, formal discussion about ownership?
 
-----
+The Idea Protocol provides an easy, neutral way to communicate **your intent**—without the legalese. It's about establishing mutual understanding and respect, so you can **focus on the idea itself** rather than worrying about its future use.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+---
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## How It Works
+
+Each version of the Idea Protocol is a simple, short license that defines how an idea can be shared, used, or built upon. It’s not about complicated contracts or legal restrictions—it’s about **clear social and moral guidelines**.
+
+Think of it like a set of **"social rules"** for idea sharing. By choosing a license, you signal to others how you’d like your idea treated—whether that’s for open discussion, private feedback, or collaboration.
+
+You can attach an Idea Protocol license to an idea or project simply by including a short note—just like a copyright notice at the bottom of a document or code.
+
+---
+
+## Core Licenses (Draft)
+
+These are the current licenses (in draft), which set clear boundaries for different types of idea-sharing:
+
+| License Code | License Name                | Purpose                                                   |
+|---------------|-----------------------------|-----------------------------------------------------------|
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., open feedback with attribution] |
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., private review with consent for reuse] |
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., co-ownership in collaborative projects] |
+
+*Note: License names and details are still in development. Check back for updates.*
+
+---
+
+## How to Use It
+
+Applying the Idea Protocol to your idea is simple. Here’s how it works:
+
+- **Choose a license**: Pick a license that best fits your idea-sharing situation.
+- **Add the license**: Include the license in your email, document, or project—just a quick line like "This idea is shared under the Idea Protocol: [IP-XX]".
+- **Share and discuss**: Now you can focus on sharing and discussing your idea, knowing that expectations are clear.
+
+That’s it! No legal jargon, no awkward conversations—just simple, neutral boundaries around your ideas.
+
+---
+
+## Why It’s Needed
+
+Traditional IP tools like NDAs are great for protecting finished works, but they can be heavy and uncomfortable when dealing with **early ideas**. Whether you're a student, researcher, or entrepreneur, the Idea Protocol gives you a **safe, non-legal way** to set expectations around your ideas from the start. It’s about **respecting everyone’s contributions** and ensuring ideas are treated fairly.
+
+---
+
+## Join the Conversation
+
+The Idea Protocol is an evolving project, and we’re always looking for feedback. If you have thoughts, suggestions, or want to help improve the protocol, **we’d love to hear from you**!
+
+- Visit the [GitHub repository](https://github.com/lalithaar/idea-protocol) to get involved.
+- Join the conversation and contribute your ideas to make the protocol even better.
+
+---
+
+## Status
+
+**Version**: v0.0.1 (Draft)  
+**License for Protocol Text**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+*The Idea Protocol is designed to make sharing ideas easier and safer. With simple, neutral licenses, it helps you communicate the intent behind your idea and set clear expectations from the start. Whether you're collaborating or just sharing your thoughts, the protocol ensures that everyone is on the same page, without the need for formal contracts or awkward conversations.*
+

@@ -1,174 +1,82 @@
-# just-the-docs-template
+# The Idea Protocol
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+A simple way to share and discuss ideas with clear expectations.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+---
 
-More specifically, the created site:
+## What is the Idea Protocol?
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+The **Idea Protocol** helps you share early ideas with confidence. Whether you're discussing a research paper with a professor, brainstorming with a colleague, or collaborating in a hackathon, this protocol provides a simple way to communicate your expectations about how your idea should be used, shared, or developed.
 
-To get started with creating a site, simply:
+It’s a quick, informal system that allows you to **set clear boundaries** around your ideas without the need for legal contracts or awkward conversations.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+---
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+## Why It Matters
 
-After completing the creation of your new site on GitHub, update it as needed:
+When you share an idea, you might want feedback, collaboration, or simply to get another perspective. But how do you ensure your idea isn’t misused or misunderstood? How can you protect it without turning every conversation into a tense, formal discussion about ownership?
 
-## Replace the content of the template pages
+The Idea Protocol provides an easy, neutral way to communicate **your intent**—without the legalese. It's about establishing mutual understanding and respect, so you can **focus on the idea itself** rather than worrying about its future use.
 
-Update the following files to your own content:
+---
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+## How It Works
 
-## Changing the version of the theme and/or Jekyll
+Each version of the Idea Protocol is a simple, short license that defines how an idea can be shared, used, or built upon. It’s not about complicated contracts or legal restrictions—it’s about **clear social and moral guidelines**.
 
-Simply edit the relevant line(s) in the `Gemfile`.
+Think of it like a set of **"social rules"** for idea sharing. By choosing a license, you signal to others how you’d like your idea treated—whether that’s for open discussion, private feedback, or collaboration.
 
-## Adding a plugin
+You can attach an Idea Protocol license to an idea or project simply by including a short note—just like a copyright notice at the bottom of a document or code.
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+---
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+## Core Licenses (Draft)
 
-- Add the following to your site's `Gemfile`:
+These are the current licenses (in draft), which set clear boundaries for different types of idea-sharing:
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+| License Code | License Name                | Purpose                                                   |
+|---------------|-----------------------------|-----------------------------------------------------------|
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., open feedback with attribution] |
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., private review with consent for reuse] |
+| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., co-ownership in collaborative projects] |
 
-- And add the following to your site's `_config.yml`:
+*Note: License names and details are still in development. Check back for updates.*
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+---
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+## How to Use It
 
-## Publishing your site on GitHub Pages
+Applying the Idea Protocol to your idea is simple. Here’s how it works:
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+- **Choose a license**: Pick a license that best fits your idea-sharing situation.
+- **Add the license**: Include the license in your email, document, or project—just a quick line like "This idea is shared under the Idea Protocol: [IP-XX]".
+- **Share and discuss**: Now you can focus on sharing and discussing your idea, knowing that expectations are clear.
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+That’s it! No legal jargon, no awkward conversations—just simple, neutral boundaries around your ideas.
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+---
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+## Why It’s Needed
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+Traditional IP tools like NDAs are great for protecting finished works, but they can be heavy and uncomfortable when dealing with **early ideas**. Whether you're a student, researcher, or entrepreneur, the Idea Protocol gives you a **safe, non-legal way** to set expectations around your ideas from the start. It’s about **respecting everyone’s contributions** and ensuring ideas are treated fairly.
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+---
 
-## Building and previewing your site locally
+## Join the Conversation
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
+The Idea Protocol is an evolving project, and we’re always looking for feedback. If you have thoughts, suggestions, or want to help improve the protocol, **we’d love to hear from you**!
 
-1.  Change your working directory to the root directory of your site.
+- Create an issue or pr to get involved.
+- Join the conversation and contribute your ideas to make the protocol even better.
 
-2.  Run `bundle install`.
+---
 
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+## Status
 
-    The built site is stored in the directory `_site`.
+**Version**: v0.0.1 (Draft)  
+**License for Protocol Text**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Publishing your built site on a different platform
+---
 
-Just upload all the files in the directory `_site`.
+*The Idea Protocol is designed to make sharing ideas easier and safer. With simple, neutral licenses, it helps you communicate the intent behind your idea and set clear expectations from the start. Whether you're collaborating or just sharing your thoughts, the protocol ensures that everyone is on the same page, without the need for formal contracts or awkward conversations.*
 
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/_site/
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
