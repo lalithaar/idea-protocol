@@ -15,7 +15,7 @@ Each Idea Protocol code is a short, simple notice you attach to your idea. Think
 If you release an idea and want people to use it freely but must credit you as the source, include this line:
 
 ```
-This idea is shared under the Idea Protocol ([IP-ATTRIB](LINK_TO_IP-ATTRIB_PAGE)). Use freely, modify, and build upon with proper attribution.
+This idea is shared under the Idea Protocol ([IP-ATTRIB](https://lalithaar.github.io/idea-protocol/v0.1/ip-attrib)). Use freely, modify, and build upon with proper attribution.
 ```
 
 ---
