@@ -1,82 +1,60 @@
 # The Idea Protocol
 
-A simple way to share and discuss ideas with clear expectations.
+Your simple system for sharing early ideas and setting clear expectations—**no awkward talks needed.**
+
+The Idea Protocol is a non-legal framework that solves the problem of sharing concepts with confidence. Whether you’re brainstorming with a peer or pitching to a mentor, this system ensures everyone is on the same page about how your idea can be used, shared, or built upon.
 
 ---
 
-## What is the Idea Protocol?
+## Quick Start: How It Works
 
-The **Idea Protocol** helps you share early ideas with confidence. Whether you're discussing a research paper with a professor, brainstorming with a colleague, or collaborating in a hackathon, this protocol provides a simple way to communicate your expectations about how your idea should be used, shared, or developed.
+Each Idea Protocol code is a short, simple notice you attach to your idea. Think of them as the **"social rules"** for sharing your thoughts.
 
-It’s a quick, informal system that allows you to **set clear boundaries** around your ideas without the need for legal contracts or awkward conversations.
+### Example: IP-ATTRIB (Requires Credit)
 
----
+If you release an idea and want people to use it freely but must credit you as the source, include this line:
 
-## Why It Matters
-
-When you share an idea, you might want feedback, collaboration, or simply to get another perspective. But how do you ensure your idea isn’t misused or misunderstood? How can you protect it without turning every conversation into a tense, formal discussion about ownership?
-
-The Idea Protocol provides an easy, neutral way to communicate **your intent**—without the legalese. It's about establishing mutual understanding and respect, so you can **focus on the idea itself** rather than worrying about its future use.
+```
+This idea is shared under the Idea Protocol ([IP-ATTRIB](LINK_TO_IP-ATTRIB_PAGE)). Use freely, modify, and build upon with proper attribution.
+```
 
 ---
 
-## How It Works
+## The Core Licenses (v0.1)
 
-Each version of the Idea Protocol is a simple, short license that defines how an idea can be shared, used, or built upon. It’s not about complicated contracts or legal restrictions—it’s about **clear social and moral guidelines**.
+These six licenses set clear boundaries for different sharing needs, ranked from **Most Control** to **Maximum Freedom**.
 
-Think of it like a set of **"social rules"** for idea sharing. By choosing a license, you signal to others how you’d like your idea treated—whether that’s for open discussion, private feedback, or collaboration.
+| Code | Name | Purpose |
+| :---: | :--- | :--- |
+| **IP-P** | **Strictly Private** | For absolute secrecy; the idea must not be shared or used outside the original recipients. |
+| **IP-FB** | **Confidential Feedback** | For getting specific input; external sharing or reuse is strictly prohibited. |
+| **IP-CO** | **Co-Ownership** | For joint projects where all named partners share ownership and rights equally. |
+| **IP-GB** | **Group Brainstorm** | For open discussion in temporary groups; external development requires notifying the team to arrange credit. |
+| **IP-ATTRIB**| **Attribution** | To encourage wide use and modification, as long as clear credit is always given to you. |
+| **IP-ZERO** | **Zero Restriction** | To place the idea into the public domain; free for anyone to use or profit from without any expectation of credit. |
 
-You can attach an Idea Protocol license to an idea or project simply by including a short note—just like a copyright notice at the bottom of a document or code.
-
----
-
-## Core Licenses (Draft)
-
-These are the current licenses (in draft), which set clear boundaries for different types of idea-sharing:
-
-| License Code | License Name                | Purpose                                                   |
-|---------------|-----------------------------|-----------------------------------------------------------|
-| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., open feedback with attribution] |
-| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., private review with consent for reuse] |
-| **IP-XX**     | *[License Name]*            | [A brief description of this license’s purpose, e.g., co-ownership in collaborative projects] |
-
-*Note: License names and details are still in development. Check back for updates.*
+**➡️ [VIEW ALL LICENSES & EXPECTATIONS HERE](https://lalithaar.github.io/idea-protocol/v0.1/core-licenses)**
 
 ---
 
-## How to Use It
+## ⚖️ IP Protocol vs. Legal Contracts (NDAs)
 
-Applying the Idea Protocol to your idea is simple. Here’s how it works:
+Traditional legal tools like NDAs are often **too heavy and formal** for early discussions. The Idea Protocol is built to fill this gap, giving you a safe, non-legal way to set expectations during the initial **brainstorming and concept stages.**
 
-- **Choose a license**: Pick a license that best fits your idea-sharing situation.
-- **Add the license**: Include the license in your email, document, or project—just a quick line like "This idea is shared under the Idea Protocol: [IP-XX]".
-- **Share and discuss**: Now you can focus on sharing and discussing your idea, knowing that expectations are clear.
-
-That’s it! No legal jargon, no awkward conversations—just simple, neutral boundaries around your ideas.
+**IMPORTANT:** The Idea Protocol is **not a replacement for legal contracts.** If your idea is a finalized product, patentable invention, or core trade secret ready for investors, you should absolutely use a legally binding NDA.
 
 ---
 
-## Why It’s Needed
+## 💬 Join the Conversation
 
-Traditional IP tools like NDAs are great for protecting finished works, but they can be heavy and uncomfortable when dealing with **early ideas**. Whether you're a student, researcher, or entrepreneur, the Idea Protocol gives you a **safe, non-legal way** to set expectations around your ideas from the start. It’s about **respecting everyone’s contributions** and ensuring ideas are treated fairly.
-
----
-
-## Join the Conversation
-
-The Idea Protocol is an evolving project, and we’re always looking for feedback. If you have thoughts, suggestions, or want to help improve the protocol, **we’d love to hear from you**!
+The Idea Protocol is an evolving project. We believe in open discussion to make this framework as useful as possible.
 
 - Create an issue or pr to get involved.
-- Join the conversation and contribute your ideas to make the protocol even better.
+- Contribute your ideas to make the protocol even better.
 
 ---
 
 ## Status
 
-**Version**: v0.0.1 (Draft)  
+**Version**: v0.1
 **License for Protocol Text**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
----
-
-*The Idea Protocol is designed to make sharing ideas easier and safer. With simple, neutral licenses, it helps you communicate the intent behind your idea and set clear expectations from the start. Whether you're collaborating or just sharing your thoughts, the protocol ensures that everyone is on the same page, without the need for formal contracts or awkward conversations.*
-

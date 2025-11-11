@@ -6,3 +6,5 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Github: https://github.com/lalithaar/idea-protocol
+
+enable_toc: true

@@ -100,3 +100,15 @@ a.reversefootnote {
 a.site-button {
   font-size: 1rem;
 }
+
+div.highlight,code,pre.highlight {
+    background: darken($paper-bg, 5%);
+}
+
+div.highlighter-rouge > button, div.highlighter-rouge > svg.copy-icon, div.highlighter-rouge > button {
+  color: darken($ink, 5%);
+  fill: darken($ink, 5%);
+  background-color: darken($paper-bg, 10%);
+  border:0.75rem solid darken($paper-bg, 10%) !important;
+  padding:0.19rem;
+}
