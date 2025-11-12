@@ -8,3 +8,6 @@ aux_links:
   Github: https://github.com/lalithaar/idea-protocol
 
 enable_toc: true
+
+ga_tracking: G-HL0FHQLECS
+ga_tracking_anonymize_ip: true
